@@ -1,5 +1,0 @@
-   23  curl -fL "https://github.com/coursier/launchers/raw/master/cs-x86_64-pc-linux-static.gz" | gzip -d > cs
-   24  curl -fL "https://github.com/coursier/launchers/raw/master/cs-x86_64-pc-linux.gz" | gzip -d > cs
-   25  chmod +x cs
-   26  ./cs setup
-   59  code ~/.profile
