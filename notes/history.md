@@ -13,5 +13,7 @@
    24  curl -fL "https://github.com/coursier/launchers/raw/master/cs-x86_64-pc-linux.gz" | gzip -d > cs
    25  chmod +x cs
    26  ./cs setup
-   59  code ~/.profile <!-- // remove quotation marks from "$PATH:/home/gitpod/.local/share/coursier/bin" -->
+   59  code ~/.profile <!-- // in case you need to remove quotation marks from "$PATH:/home/gitpod/.local/share/coursier/bin" -->
    66  source ~/.profile
+
+   178  chmod +rx coursair.sh <!-- // resolve Permission Denied when calling script from another bash script -->
