@@ -14,3 +14,4 @@
    25  chmod +x cs
    26  ./cs setup
    59  code ~/.profile <!-- // remove quotation marks from "$PATH:/home/gitpod/.local/share/coursier/bin" -->
+   66  source ~/.profile
