@@ -18,8 +18,8 @@
    78  chmod +rx coursier.sh <!-- // resolve Permission Denied when calling script from another bash script -->
    Installing Mill
     <!-- // Install Mill -->
-   191  curl -L https://github.com/lihaoyi/mill/releases/download/0.8.0/0.8.0-example-3.zip  -o example-3.zip
-   192  cd example-3
+   191  curl -L https://github.com/lihaoyi/mill/releases/download/0.8.0/0.8.0-example-3.zip  -o mill-example-3.zip
+   192  cd mill-example-3
    193  find . -type f
       ./build.sc
       ./mill
