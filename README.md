@@ -1,1 +1,3 @@
 # scalawags
+
+Scala stuff
