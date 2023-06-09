@@ -9,10 +9,21 @@
    13  ls
    14  sbt
    15  run or ~run
-   <!-- // Install coursier -->
+   <!-- // Install Coursier -->
    24  curl -fL "https://github.com/coursier/launchers/raw/master/cs-x86_64-pc-linux.gz" | gzip -d > cs
    25  chmod +x cs
    26  ./cs setup
    59  code ~/.profile <!-- // in case you need to remove quotation marks from "$PATH:/home/gitpod/.local/share/coursier/bin" -->
    66  source ~/.profile
    78  chmod +rx coursier.sh <!-- // resolve Permission Denied when calling script from another bash script -->
+   Installing Mill
+    <!-- // Install Mill -->
+   191  curl -L https://github.com/lihaoyi/mill/releases/download/0.8.0/0.8.0-example-3.zip  -o example-3.zip
+   192  cd example-3
+   193  find . -type f
+      ./build.sc
+      ./mill
+      ./foo/test/src/ExampleTests.scala
+      ./foo/src/Example.scala
+194  ./mill foo.compile
+195  ./mill foo.run
