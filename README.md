@@ -1,3 +1,3 @@
 # scalawags
 
-Scala stuff
+A cloud development environment for Scala projects
